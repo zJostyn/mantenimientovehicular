@@ -65,7 +65,7 @@ export class MantenimientoComponent {
         comentario: this.comentario
       }
 
-      const url = 'http://localhost:3000/api/mantenimiento';
+      const url = 'https://apimantenimientovehicular.onrender.com/api/mantenimiento';
 
       axios.post(url, formData)
         .then(response => {
