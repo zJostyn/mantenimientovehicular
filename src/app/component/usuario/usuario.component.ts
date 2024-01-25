@@ -37,7 +37,7 @@ export class UsuarioComponent {
         pass: this.pass
       }
 
-      const url = 'http://localhost:3000/api/usuario';
+      const url = 'https://apimantenimientovehicular.onrender.com/api/usuario';
 
       axios.post(url, formData)
         .then(response => {

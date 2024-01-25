@@ -129,7 +129,7 @@ export class VehiculoIDComponent {
         id: id
       }
   
-      const url = 'http://localhost:3000/api/updateVehiculo';
+      const url = 'https://apimantenimientovehicular.onrender.com/api/updateVehiculo';
   
       axios.put(url, formData)
         .then(response => {

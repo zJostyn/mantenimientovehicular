@@ -89,7 +89,7 @@ export class VehiculoComponent {
         link: this.link
       }
   
-      const url = 'http://localhost:3000/api/vehiculo';
+      const url = 'https://apimantenimientovehicular.onrender.com/api/vehiculo';
   
       axios.post(url, formData)
         .then(response => {

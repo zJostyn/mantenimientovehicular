@@ -17,7 +17,7 @@ export class LoginComponent {
   constructor(private router: Router) { }
 
   validar() {
-    const url = 'http://localhost:3000/api/acceso';
+    const url = 'https://apimantenimientovehicular.onrender.com/api/acceso';
     const formData = {
       nombredeusuario: this.nombredeusuario,
       pass: this.pass

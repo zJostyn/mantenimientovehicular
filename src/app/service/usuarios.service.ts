@@ -10,18 +10,18 @@ import { MantenimientoComponent } from '../component/mantenimiento/mantenimiento
 })
 export class UsuariosService {
 
-  private apiUrl = 'http://localhost:3000/api/usuarios';
-  private apiUrl1 = 'http://localhost:3000/api/vehiculos';
-  private apiUrl2 = 'http://localhost:3000/api/mantenimientos';
-  private apiUrl3 = 'http://localhost:3000/api/vehiculoID';
-  private apiUrl4 = 'http://localhost:3000/api/mantenimientoID';
-  private apiUrl5 = 'http://localhost:3000/api/vehiculosIDs';
-  private apiUrl6 = 'http://localhost:3000/api/deleteMantenimiento';
-  private apiUrl7 = 'http://localhost:3000/api/registro';
-  private apiUrl8 = 'http://localhost:3000/api/updateMantenimiento';
-  private apiUrl9 = 'http://localhost:3000/api/habilitarUsuario';
-  private apiUrl10 = 'http://localhost:3000/api/bloquearUsuario';
-  private apiUrl11 = 'http://localhost:3000/api/deleteContacto';
+  private apiUrl = 'https://apimantenimientovehicular.onrender.com/api/usuarios';
+  private apiUrl1 = 'https://apimantenimientovehicular.onrender.com/api/vehiculos';
+  private apiUrl2 = 'https://apimantenimientovehicular.onrender.com/api/mantenimientos';
+  private apiUrl3 = 'https://apimantenimientovehicular.onrender.com/api/vehiculoID';
+  private apiUrl4 = 'https://apimantenimientovehicular.onrender.com/api/mantenimientoID';
+  private apiUrl5 = 'https://apimantenimientovehicular.onrender.com/api/vehiculosIDs';
+  private apiUrl6 = 'https://apimantenimientovehicular.onrender.com/api/deleteMantenimiento';
+  private apiUrl7 = 'https://apimantenimientovehicular.onrender.com/api/registro';
+  private apiUrl8 = 'https://apimantenimientovehicular.onrender.com/api/updateMantenimiento';
+  private apiUrl9 = 'https://apimantenimientovehicular.onrender.com/api/habilitarUsuario';
+  private apiUrl10 = 'https://apimantenimientovehicular.onrender.com/api/bloquearUsuario';
+  private apiUrl11 = 'https://apimantenimientovehicular.onrender.com/api/deleteContacto';
 
   constructor(private dialog: MatDialog) { }
 
